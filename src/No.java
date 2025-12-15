@@ -1,9 +1,9 @@
 public class No<K, V> {
 
-	private K chave;       // chave identificadora do item armazenado no nodo da árvore.
-	private V item;        // contém os dados do item armazenado no nodo da árvore.
-	private No<K, V> direita;    // referência ao nodo armazenado, na árvore, à direita do nó em questão.
-	private No<K, V> esquerda;   // referência ao nodo armazenado, na árvore, à esquerda do nó em questão.
+	private K chave;       
+	private V item;        
+	private No<K, V> direita;   
+	private No<K, V> esquerda;   
 	private int altura;
 	
 	public No(K chave, V item) {
